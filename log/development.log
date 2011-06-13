@@ -1,0 +1,11 @@
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at 2011-06-13 12:46:05 -0400
+  Processing by Rails::InfoController#properties as HTML
+  [1m[36mSQL (38.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Rendered inline template (0.9ms)
+Completed 200 OK in 113ms (Views: 3.1ms | ActiveRecord: 38.3ms)
